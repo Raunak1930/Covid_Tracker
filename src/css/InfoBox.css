@@ -1,0 +1,27 @@
+.infobox{
+    width: 20rem;
+    margin: 1rem;
+    transition: all ease 0.2s;
+    /* background-color: rgb(191, 126, 252); */
+}
+.infobox:hover{
+    cursor: pointer;
+    /* transform: scale(1.08); */
+}
+.infobox_container{
+    
+}
+.infobox_active{
+    border-bottom: 5px solid rgb(230, 209, 250);
+    transform: scale(1.08);
+}
+@media only screen and (max-width:1307px){
+.infobox{
+    width: 15rem;
+  }
+}
+@media only screen and (max-width:977px){
+.infobox,.infobox_container{
+    width: 10rem;
+  }
+}

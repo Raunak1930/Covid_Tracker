@@ -1,0 +1,42 @@
+.map{
+    height: 600px;
+    /* width: 100px; */
+    background-color: rgb(230, 209, 250);
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.markercluster-map{
+    height: 90%;
+    padding: 1rem;
+}
+/* .popup_container{
+} */
+
+/* .popup_flag{
+    height: 100%;
+    width: 100%;
+    object-fit: cover ;
+} */
+.popup_container img{
+    border-radius: 9px;
+}
+.popup_country{
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+@media only screen and (max-width:1307px){
+    
+    .map{
+        width: 60rem;
+    }
+}
+@media only screen and (max-width:1038px){
+    
+    .map{
+        width: 55rem;
+    }
+}

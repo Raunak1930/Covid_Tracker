@@ -1,0 +1,22 @@
+.title{
+    display: flex;
+    padding: 9px;
+    display: flex;
+    align-items: center;
+}
+.title_name{
+    color: white;
+}
+.title_logo{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: contain;
+    vertical-align: middle;
+    margin: 0 2rem;
+    /* transform: scale(1); */
+    /* animation: rotate 5s infinite; */
+}
+@keyframes rotate {
+    100% {transform: rotate(360deg);}
+}

@@ -1,0 +1,21 @@
+.table{
+    height: 450px;
+    overflow-y: scroll;
+}
+.table_row{
+    /* text-align: center; */
+}
+.table_container{
+    display: flex;   
+}
+.table_ele{
+    text-align: start;
+    width: 12rem;
+    padding-left: 2rem;
+}
+.table_cases{
+    padding-left: 2rem;
+}
+.table .table_row:nth-of-type(odd){
+    background-color: rgb(230, 209, 250);
+}

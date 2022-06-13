@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  /* background-color: rgb(218, 180, 253); */
+  background-color: #f5f5f5;  
+}
+.app {
+  text-align: center;
+}
+.app_header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(191, 126, 252);
+}
+.app_left_title{
+  margin-top: 2rem;
+  color: rgb(191, 126, 252);
+}
+.app_middle{
+  display: flex;
+}
+.app_right{
+  margin: 3rem 1rem;
+}
+
+/* ************************** dropdown  */
+
+.dropdown{
+  margin-right: 2rem;
+}
+#demo-simple-select-label{
+  color: white;
+}
+#demo-simple-select{
+  width: 8rem;
+}
+
+
+/* *************************** infoboxes */
+
+.info_boxes{
+  display: flex;
+  margin: 2rem 1rem;
+}
+
+
+
+.table{
+  width: 25rem;
+  margin-bottom: 2rem;
+}
+
+.slogan_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.slogan{
+  font-size: 2rem;
+  /* color: rgb(191, 126, 252); */
+  text-align: center;
+  margin-top: 2rem;
+}
+.slogan_img{
+  width: 10rem;
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+.slogan_cont{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.slogan_btn{
+  margin-top: 1rem;
+  color: rgb(191, 126, 252);
+}
+.MuiButton-label{
+  color: rgb(170, 86, 248);
+}
+
+@media only screen and (max-width:1307px){
+  .app_middle{
+    display: flex;
+    flex-direction: column;
+  }
+  .info_boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .app_right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .news_box{
+    width: 20rem;
+  }
+  .map{
+
+  }
+}
